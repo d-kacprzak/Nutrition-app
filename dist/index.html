@@ -1,0 +1,87 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+<!--        normalize-->
+        <link rel="stylesheet" href="css/lib/normalize.css">
+<!--        bootstrap-->
+        <link rel="stylesheet" href="css/lib/bootstrap.css">
+<!--        main css-->
+        <link rel="stylesheet" href="css/style.min.css">
+
+        <title>Aplikacja żywieniowa</title>
+<!--        main js-->
+        <script src="js/bundle.min.js" defer></script>
+    </head>
+    <body>
+        <div class="container">
+<!--            main header-->
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="mb-4">Food and Recipe Search</h1>
+                </div>
+            </div>
+<!--            main content-->
+
+            <div class="col-md-12">
+                <h2>Choose one or more methods for searching</h2>
+               <div class="accordion">
+
+                   <div class="card rounded-2">
+                       <div class="card-header">
+                           <h5 class="">Searching by keyword</h5>
+                           <span><i class="fas fa-angle-down"></i></span>
+                       </div>
+                       <div class="desc">Enter a what you have eaten, like
+                           <span>"coffee and croissant"</span> or <span>"chicken enchilada"</span>
+                           to see how it works. We have accurate data
+                           tens of thousands of foods, including international dishes.
+                       </div>
+                       <div class="card-body">
+                           <input id="searchValue" name="searchValue" type="text"
+                                  class="form-control">
+                       </div>
+                   </div>
+                   <div class="card d2">
+                       <div class="card-header">
+                           <h5 class="">Health labels</h5>
+                           <span><i class="fas fa-angle-down"></i></span>
+                       </div>
+                       
+                       <div class="card-body">
+                           <div class="row">
+                               <div class="desc">
+                                   <label for="" class="checkbox-button">
+                                       <input type="checkbox" class="healt checkbox-button__input" value="alcohol-free">
+                                       <span class="checkbox-button__control"></span>
+                                       <span class="checkbox-button__label">Alcohol-free</span>
+                                       <span class="mdesc">No alcohol used or contained</span>
+                                   </label>
+                               </div>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="btn-line">
+                       <a class="btn rounded-0">
+                           <i class="fas fa-search"></i>
+                       </a>
+                   </div>
+
+               </div>
+            </div>
+
+
+            <div class="row output"></div>
+            <div class="row"></div>
+        </div>
+
+<!--        bootstrap js-->
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+        <script src="js/lib/bootstrap.js"></script>
+    </body>
+</html>

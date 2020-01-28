@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400&display=swap');
+
+*, *:before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+    background-color: #fff;
+    height: 100%;
+}
+
+.card-header{
+    padding: 15px;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.desc{
+    text-align: left;
+    padding: 15px;
+    font-weight: 300;
+}
+
+body {
+    background-color: gray;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.card {
+    background-color: lightgray;
+    border: none;
+}
+
+.card {
+    border-radius: 10px !important;
+}
+h1{
+    font-weight: 400;
+    color: gray;
+}
+h2{
+    font-weight: 300;
+    font-size: 1.3rem;
+    text-align: left;
+}
+
+.fa-angle-down{
+    font-size: 1.4rem;
+}
+
+.accordion{
+    display: flex;
+    flex-direction: column;
+}
+
+.accordion > div {
+    margin-bottom: 15px;
+}
+
+.d2 {
+    display: none;
+}
+
+
+a {
+    width: 10rem;
+    padding: 15px !important;
+    text-align: center;
+    border: 2px solid pink !important;
+    color: pink !important;
+}
+
+.fa-search{
+    font-size: 1.3rem;
+}
+.fa-search::after {
+    content: 'Search';
+    margin-left: 12px;
+    letter-spacing: 2px;
+}
+
+a:hover {
+    background-color: pink;
+    color: #fff !important;
+    transition: all .4s ease-in-out;
+}
